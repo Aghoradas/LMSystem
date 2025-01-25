@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="70"
+   height="33"
+   viewBox="0 0 70 33"
+   sodipodi:docname="update.png"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="9.765625"
+     inkscape:cx="31.1296"
+     inkscape:cy="21.2992"
+     inkscape:window-width="1290"
+     inkscape:window-height="761"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <image
+       width="70"
+       height="33"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAhCAQAAADO1hXtAAADuElEQVRYhcWYXW8UZRTHf/PMM/sy&#10;7bTdLaVJt2lZqJWWSg3EpJpAjBcmhBsxARM/AN7pR9DPIFeK8fWCCFXvakIisWqFhFZJCyEUaCmu&#10;tEu32+5rZ3d2ZrxYynZ3sQjZWf/n7nmeyfnNOSfneVHYWcpT5p9V7rM7U8YCB17RDqlR2hB2g4BU&#10;F4e0vWj9cePqFfNJWPWOxKkXu94XJ+lUacdANIYEAIcMKWxYcy6sfnz+Fs5OMMob4aGPxGnVF+Yw&#10;BzAaCLKlDDeYIYldtM7Of3gpuT1C22HUE6M957TBdvo5gu4ByJbyTLFICms+/u74Nex6GHnitd7v&#10;tc5uujiC5iEKgMUUceJYyeW3x6coVcPIYyN7L+pd3fg5it9jFIACv1Agjpm48+aPc2UcFQCxu/PV&#10;C8G9EUWyhzBOE0zBJU0LuWDL2P3vcpu4WzAtb32gn3xBtKCxDxW3KdbCGn4MJdkVMeeuUgQBaPt7&#10;Au/1ijA6BoEmpKgsDQOdML0icHp/D1oZJjhyKhAeVAwMdGxEk8xGx8BgUAmER94hCBIVXT/ep4Uf&#10;8eYJ7/Q7DVTqcR+LahvHOUtO4nupTxsYUCp9JYP2qJS8k42F9riBRJWbA4f7Z1ISf/ew5ot63lmq&#10;Jar8RQn4QsPckkgtssvnReP/7woQ0tQIUiJo65CN3A6fRx2SNoREWEJTmpukevkVWyAkWJs4qtcV&#10;+xQ5jrUJEtdZy5jq/xyafMFaw5U4mQeJtG3U03gVLLtuxGI1nf8bR1JKLmRW45H+mgXelbSoPeCx&#10;TOphYpGSxLqfiE0vjQ4otZ94p1qYBTc2E1vFkhSxYpNzx45Gtp9ivK1ntSpVBeYexCaxKAgszKXp&#10;67/Puipbpnm+SWpUvF13Zy8vTWNSkrjks5lr47+ODg2GmhKXaq0zeWd2PJshj6sCNmp2vaCGDg35&#10;/aioTTlAlKNiMZE+99nNCTtNbisIti0zf+W09oNR2cyoFPnJ/PqrmW+y6+XrVNm3g206awtJWx+O&#10;+JtxHAfIcDH7xee/fZlcYYMiVMqjhJ23lufvPVT6WsMhxeuN0+a2O3H30zOXv11fYQOzPFrJSolS&#10;obRye3o2ZW7uFq2q4vOk19hscM+dXD7/wydn5i/lkhWU2uutxEBv7TD2vT528OXePbs6A0HRQCLH&#10;Mc1EIrY0++fPVzJ3sxvkyWJV5msv/gp+dAL49JDeTlDIhj6KuE6JzXwqv04RkzyF6reIJ7lSkPjR&#10;kAiUf1nzXCiAi0MJiwKl+keRfwB9PrN+aT90YwAAAABJRU5ErkJggg==&#10;"
+       id="image1" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2882px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.940682"
+       x="16.70747"
+       y="19.011625"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="16.70747"
+         y="19.011625"
+         style="stroke-width:0.940682">Update</tspan></text>
+  </g>
+</svg>
