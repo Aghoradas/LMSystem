@@ -3,9 +3,7 @@
 #include <wx/wx.h>
 #include <wx/gbsizer.h>
 #include <wx/display.h>
-#include <iostream>
 #include <vector>
-#include <array>
 #include <string>
 #include <sys/types.h>
 #include <cstdlib>
@@ -150,7 +148,7 @@ const int FILE_QUIT = wxID_EXIT;
 BEGIN_EVENT_TABLE(MainFrame, wxFrame)
     EVT_MENU(FILE_QUIT, MainFrame::closeWindow)
     EVT_BUTTON(VIEWIN, MainFrame::viewInfo)
-    EVT_BUTTON(ADDIN, MainFrame::addInfo)
+    EVT_MENU(ADDIN, MainFrame::addInfo)
     EVT_BUTTON(UPDATEIN, MainFrame::updateInfo)
 END_EVENT_TABLE()
 
@@ -160,7 +158,7 @@ bool BookApp::OnInit() {
     // This is a fork()ing to call a login function.
     // If it returns 0, the user has access to the BookstoreInv,
     // and if it returns 1, the program exits.
-    /* int status;
+    int status;
     pid_t pid = fork();
     if (pid == -1) {
         // Failed to fork.
@@ -172,7 +170,7 @@ bool BookApp::OnInit() {
         wxLogMessage("Calling login...");
         // const char* loginApp = "./login_window";  // excvp requires const char*
         // char* const arg[] = {"./", nullptr};      // excvp also requires a const char* argument
-        execl("./login_window", (char*)nullptr);    // even if we have none (nullptr).
+        execl("./login_window", (char*)1);    // even if we have none (nullptr).
     } else {
         // Parent process: check the exit status  of child.
         waitpid(pid, &status, 0);
@@ -200,11 +198,11 @@ bool BookApp::OnInit() {
                 //continue;
             }
         } else if (WIFSIGNALED(status)) {
-            wxLogMessage("Process signaled exit: " + WTERMSIG(status));
+            wxLogMessage("Process signaled exit: %d", WTERMSIG(status));
         } else {
             wxLogMessage("Login process terminated abnormally...");
         }
-    } */
+    }
     MainFrame* frame = new MainFrame();
     frame->Show();    
     return true;
@@ -304,7 +302,7 @@ void MainFrame::viewInfo(wxCommandEvent& event){
     if(listBox){
         int selection = listBox->GetSelection();
         if(selection != wxNOT_FOUND){
-            if(&books && selection >= 0 && selection < books.size()){
+            if(!books.empty() && selection >= 0 && selection < books.size()){
                 BookData selBookInfo = books[selection];
                 selBookInfo.display();
             }else{

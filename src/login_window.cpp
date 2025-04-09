@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <wx/wx.h>
 #include <wx/display.h>
 #include <string>
@@ -21,8 +22,8 @@ private:
     wxButton* button;
 };
 
-std::map<wxString, std::vector<wxString, wxString>> login_records{{"someone",{"goodness", "1"}},
-                                                                  {"you", {"me", "2"}}};
+std::map<std::string, std::vector<std::string>> login_records = {{"someone", {"goodness", "1"}},
+                                                                    {"you", {"me", "2"}}};
 
 IMPLEMENT_APP(MyApp)
 
@@ -91,10 +92,11 @@ void LoginFrame::OnButtonClick(wxCommandEvent& event) {
     wxString password_test = password->GetValue();
     login->Clear();
     const char* user_id = login_test.char_str();
-    if (login_records.contains(login_test)) {
-        if (login_records[login_test].at(0)) {
+    if (login_records.count(std::string(login_test))) {
+        if (login_records[std::string(login_test)].at(0) == password_test) {
             wxLogMessage("Login Confirmed..\nWelcome to LMSystem");
-            exit(login_records[login_test].at(1));
+            int exit_code = stoi(login_records[std::string(login_test)].at(1));
+            exit(1);
         }
     } else {
         wxLogMessage("Login failed");
