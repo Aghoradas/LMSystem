@@ -9,7 +9,7 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <sys/wait.h>
-#include "bookdata.h"
+#include "../includes/bookdata.h"
 
 
 wxFont titleFont = wxFont(16, 
